@@ -47,7 +47,19 @@ Skill Compass searches across sources using multi-field retrieval and returns ra
 
 ## 🚀 Installation
 
-### Option 1: Via skill manager (Easiest)
+### For Claude Code
+
+You can register this repository as a Claude Code Plugin marketplace by running the following command in Claude Code:
+
+```bash
+/plugin marketplace add LittleDinoC/skill-compass
+```
+
+```bash
+/plugin install skill-compass@skill-compass
+```
+
+### Option 1: Via skill manager
 
 ```bash
 npx skills add https://github.com/LittleDinoC/skill-compass --skill skill-compass
@@ -58,8 +70,8 @@ npx skills add https://github.com/LittleDinoC/skill-compass --skill skill-compas
 You can download the specific skill folder and place it in your skills directory.
 
 ```bash
-# Navigate to your skills directory (e.g., for Claude Code)
-cd ~/.claude/skills 
+# Navigate to your skills directory (e.g., for OpenClaw)
+cd ~/.openclaw/skills 
 
 # Extract only the specific skill folder
 npx degit LittleDinoC/skill-compass/skills/skill-compass skill-compass

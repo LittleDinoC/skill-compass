@@ -1,0 +1,22 @@
+{
+    "name": "skill-compass",
+    "owner": {
+        "name": "Yichen Tang",
+        "email": "tangyc21@mails.tsinghua.edu.cn"
+    },
+    "metadata": {
+        "description": "Skill Compass",
+        "version": "1.0.0"
+    },
+    "plugins": [
+        {
+            "name": "skill-compass",
+            "description": "Smart skill search engine for agents — discover reusable skills and workflows instantly.",
+            "source": "./",
+            "strict": false,
+            "skills": [
+                "./skills/skill-compass"
+            ]
+        }
+    ]
+}
