@@ -125,7 +125,7 @@ Recommendations:
    - Fit: Master E2E testing with Playwright and Cypress, flaky test debugging, CI/CD integration.
 ```
 
-## Search Behavior
+## 🎯 Search Behavior
 
 | Scenario | Behavior |
 |----------|----------|
@@ -133,6 +133,24 @@ Recommendations:
 | Ambiguous results | Asks exactly one clarification question |
 | No results | Prompts for refined intent |
 | User verdict | Sends feedback for ranking improvement |
+
+## 📚 Research & Citation
+
+Skill Compass is the practical extension of our paper [Multi-Field Tool Retrieval](https://arxiv.org/abs/2602.05366). While the paper proposes a framework for retrieving tools across multiple metadata fields, this project brings those insights into a functional search engine for AI agents.
+
+If you find this work helpful for your research or projects, please cite our paper:
+
+```text
+@misc{tang2026multifieldtoolretrieval,
+   title={Multi-Field Tool Retrieval}, 
+   author={Yichen Tang and Weihang Su and Yiqun Liu and Qingyao Ai},
+   year={2026},
+   eprint={2602.05366},
+   archivePrefix={arXiv},
+   primaryClass={cs.IR},
+   url={https://arxiv.org/abs/2602.05366}, 
+}
+```
 
 ## ⚖️ License
 
