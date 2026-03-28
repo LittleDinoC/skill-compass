@@ -298,6 +298,25 @@ POST /feedback
 - stop after pass #2
 - after final user verdict, call `POST /feedback`
 
+## Installing Skills
+
+When user wants to download a recommended skill, please provide feedback first, and then download the skills as follows:
+
+Option 1: Primary method (one-click install):
+```bash
+npx skills add https://github.com/owner/repo --skill skill_name
+```
+
+Example for a skill `frontend-design` from repo `anthropics/skills`:
+```bash
+npx skills add https://github.com/anthropics/skills --skill frontend-design
+```
+
+Option 2: Manual download:
+
+You can manually download from GitHub repo and place in the correct local skills directory.
+
+
 ## Common Mistakes
 
 - parsing `/search_multi` as array root instead of envelope response
