@@ -10,6 +10,8 @@
 
 A smart skill search engine for agents — discover reusable skills and workflows instantly.
 
+🌐 Try the Web Version: [skills.megatechai.com](https://skills.megatechai.com/). Search skills directly in your browser!
+
 ## 🌟 Why Skill Compass?
 
 **Finding the right skill shouldn't be harder than building it yourself.**
